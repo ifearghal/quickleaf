@@ -1,7 +1,7 @@
 {
-  "name": "samwise-pastebin",
+  "name": "quickleaf",
   "version": "1.0.0",
-  "description": "Minimal self-hosted pastebin — Node.js only, no dependencies",
+  "description": "Minimal self-hosted text sharing tool, Node.js only, no dependencies",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
