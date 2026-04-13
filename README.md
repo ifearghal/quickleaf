@@ -53,3 +53,9 @@ This was built as a lightweight internal ShireWorks tool. For broader exposure o
 ## Project Status
 
 Built 2026-04-07 as a quick local sharing tool for code snippets and notes. Renamed to **Quickleaf** on 2026-04-12.
+
+---
+
+**Part of [ShireWorks Tiny Tools](https://github.com/ifeArghal) — small, focused projects that do one thing well.**
+
+> Quickleaf: 12KB of server.js · No dependencies · 335 lines · ~224KB total project
