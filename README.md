@@ -1,16 +1,16 @@
-# Quickleaf
+# OpenLeaf
 
 A minimal self-hosted text sharing tool. No dependencies, no database, just Node.js and flat files.
 
-Quickleaf is built for **local-first homelab use**. It is especially handy for passing notes, code snippets, logs, and clipped text between local tools, services, browsers, and AI assistants running inside the same environment.
+OpenLeaf is built for **local-first homelab use**. It is especially handy for passing notes, code snippets, logs, and clipped text between local tools, services, browsers, and AI assistants running inside the same environment.
 
-## What Quickleaf Is
+## What OpenLeaf Is
 
 - A tiny local text sharing tool
 - A simple bridge for assistant-enabled homelab workflows
 - A fast way to move snippets from one interface to another without adding a full database or heavy stack
 
-## What Quickleaf Is Not
+## What OpenLeaf Is Not
 
 - Not magically internet-accessible on its own
 - Not a hosted public paste service out of the box
@@ -52,10 +52,10 @@ This was built as a lightweight internal ShireWorks tool. For broader exposure o
 
 ## Project Status
 
-Built 2026-04-07 as a quick local sharing tool for code snippets and notes. Renamed to **Quickleaf** on 2026-04-12.
+Built 2026-04-07 as a quick local sharing tool for code snippets and notes. Renamed to **OpenLeaf** on 2026-04-12.
 
 ---
 
 **Part of [ShireWorks Tiny Tools](https://github.com/ifeArghal) — small, focused projects that do one thing well.**
 
-> Quickleaf: 12KB of server.js · No dependencies · 335 lines · ~224KB total project
+> OpenLeaf: 12KB of server.js · No dependencies · 335 lines · ~224KB total project

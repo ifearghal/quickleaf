@@ -203,7 +203,7 @@ function renderShell(title, body) {
 <body>
   <main class="card">
     <section class="header">
-      <div class="leaf">🌿 Quickleaf</div>
+      <div class="leaf">🌿 OpenLeaf</div>
       <h1>A leaf may travel farther than a hobbit expects.</h1>
       <p class="subtitle">Some leaves find their mark. Others are lost on the road.</p>
     </section>
@@ -217,7 +217,7 @@ function renderShell(title, body) {
 }
 
 function renderHome() {
-  return renderShell('Quickleaf', `
+  return renderShell('OpenLeaf', `
     <form method="POST" action="/">
       <textarea name="content" placeholder="Drop a note, snippet, or clipping here..."></textarea>
       <div class="row">
@@ -232,7 +232,7 @@ function renderHome() {
 
 function renderCreated(origin, id) {
   const url = `${origin}/${id}`;
-  return renderShell('Quickleaf • Shared', `
+  return renderShell('OpenLeaf • Shared', `
     <div class="status">Your leaf is ready.</div>
     <div class="result-box">
       <div class="hint">Share this link:</div>
@@ -271,7 +271,7 @@ function renderCreated(origin, id) {
 }
 
 function renderPaste(id, content) {
-  return renderShell(`Quickleaf • ${id}`, `
+  return renderShell(`OpenLeaf • ${id}`, `
     <div class="status">Leaf ${escapeHtml(id)}</div>
     <div class="result-box">
       <pre>${escapeHtml(content)}</pre>
@@ -283,11 +283,11 @@ function renderPaste(id, content) {
 }
 
 function renderNotFound() {
-  return renderShell('Quickleaf • Not found', `
+  return renderShell('OpenLeaf • Not found', `
     <div class="status">That leaf isn't here.</div>
     <p class="hint">It may have been mistyped, cleaned up, or never planted at all.</p>
     <div class="actions">
-      <a class="button" href="/">Back to Quickleaf</a>
+      <a class="button" href="/">Back to OpenLeaf</a>
     </div>
   `);
 }
@@ -332,4 +332,4 @@ http.createServer((req, res) => {
 
   res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
   res.end(renderNotFound());
-}).listen(PORT, '0.0.0.0', () => console.log('Quickleaf running on port ' + PORT));
+}).listen(PORT, '0.0.0.0', () => console.log('OpenLeaf running on port ' + PORT));
